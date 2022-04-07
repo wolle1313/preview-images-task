@@ -2,6 +2,7 @@
   "name": "goodmans_project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://wolle1313.github.io/preview-images-task/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
@@ -14,8 +15,7 @@
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
     "typescript": "^4.6.3",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://wolle1313.github.io/preview-images-task/"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
