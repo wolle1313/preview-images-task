@@ -9,7 +9,6 @@ function App() {
   const [currentImage, setCurrentImage] = useState('')
 
 const imagesList = images.map(image => <ImgListItem currentImage={currentImage} key={image.name} imageData={image} setCurrentImage={setCurrentImage}/>)
-console.log(images)
   return (
     <div className="App">
       <div className='imgMenu'>
