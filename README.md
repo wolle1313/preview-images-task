@@ -1,4 +1,4 @@
-#Frontend Developer Assignment
+Frontend Developer Assignment
 
 The skills we’re looking for with this assignment are:
 
@@ -13,7 +13,7 @@ natural, maintainable code - and to show an understanding of good development pr
 are not familiar with one or more mentioned technologies, and can’t completely finish the
 assignment - it’s ok, continue and submit the assignment omitting these parts.
 
-#Create an interface for previewing local images
+Create an interface for previewing local images
 
 The layout should be based on the picture below. The design itself isn’t a strict requirement, it
 functions more as an example:
