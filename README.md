@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+#Frontend Developer Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The skills we’re looking for with this assignment are:
 
-## Available Scripts
+• Ability to create a new React project
+• Basic knowledge of TypeScript
+• Basic knowledge of React components styling (ex. Using styled-components)
+• Proper local and global state management
+• Readable code structure
 
-In the project directory, you can run:
+Note. The goal of this assignment is not necessarily to complete it perfectly, more so to create a
+natural, maintainable code - and to show an understanding of good development practices. If you
+are not familiar with one or more mentioned technologies, and can’t completely finish the
+assignment - it’s ok, continue and submit the assignment omitting these parts.
 
-### `npm start`
+#Create an interface for previewing local images
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The layout should be based on the picture below. The design itself isn’t a strict requirement, it
+functions more as an example:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![cube](https://user-images.githubusercontent.com/61213168/162431569-24d593a5-9085-45f8-90ee-91bb943e074c.png)
 
-### `npm test`
+Expected features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+• User should be able to select and upload an image from their drive (local-upload only,
+without an API)
+• Last 5 uploaded images should be stored in memory and shown in the list
+• User should be able to click an image in the list and preview it
+• Preview can use either a simple <img> tag or a three.js <boxGeometry>
+  
+The finished assignment should be self-contained - you can share the results as a Github
+repository or a zipped folder (if the project uses a bundler, please do not include “node_modules”
+in the folder.)
